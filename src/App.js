@@ -6,6 +6,7 @@ import Users from "./Pages/Users";
 import Movies from "./Pages/Movies";
 import User from "./Pages/User";
 import About from "./Pages/About";
+import UserView from "./components/UserView";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Users" element={<Users />}></Route>
         <Route path="/Users/:id" element={<User />}></Route>
         <Route path="/About/:id" element={<About />}></Route>
+        <Route path="/UserView" element={<UserView />}></Route>
       </Routes>
     </div>
   );

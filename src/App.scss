@@ -60,14 +60,14 @@
     padding: 20px 0;
     ul {
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-around;
       list-style: none;
       li {
         padding: 0 20px;
 
         a {
           text-decoration: none;
-          color: #ff3838;
+          color: #f05e5e;
         }
       }
     }
