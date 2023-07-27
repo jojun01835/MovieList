@@ -1,0 +1,20 @@
+.user {
+  height: 100vh;
+  .box {
+    width: 50%;
+    background: #ffffff33;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    .img {
+    }
+    .overview {
+      color: #fff;
+      margin: 20px 0px;
+    }
+    .voteAverage {
+      color: red;
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.movie {
+  width: 350px;
+  height: 500px;
+  background: #000000;
+  margin: 10px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #bb1e1e;
+    .title {
+      text-align: center;
+      font-size: 14px;
+    }
+    .img {
+      width: 70%;
+    }
+    .data {
+      margin-top: 30px;
+    }
+  }
+}

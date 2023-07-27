@@ -1,0 +1,75 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background: #000;
+  h1 {
+    text-align: center;
+  }
+  .movie {
+    margin: 0 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    height: 100vh;
+
+    .movie-title {
+      flex-grow: 1;
+    }
+    .movie-year {
+      color: rgb(172, 46, 134);
+      font-size: 0.6rem;
+    }
+  }
+  .lefttext {
+    margin-left: 50px;
+  }
+  .movieswrap {
+    background: #fff;
+  }
+  form {
+    padding: 5px 40px;
+    input {
+      width: 100%;
+      padding: 10px 8px;
+      box-sizing: border-box;
+      margin-bottom: 5px;
+    }
+    button {
+      width: 100%;
+      background: rgb(172, 46, 134);
+      color: #fff;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      border: none;
+    }
+    .Err {
+      color: red;
+      font-size: 10px;
+      margin-bottom: 15px;
+      margin-left: 5px;
+    }
+  }
+  nav {
+    width: 100%;
+    background: #3f3f3f;
+    padding: 20px 0;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      li {
+        padding: 0 20px;
+
+        a {
+          text-decoration: none;
+          color: #ff3838;
+        }
+      }
+    }
+  }
+}

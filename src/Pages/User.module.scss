@@ -1,0 +1,35 @@
+.loading {
+  text-align: center;
+}
+
+.user {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  padding: 70px;
+  height: 100vh;
+  box-sizing: border-box;
+  .name {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .email {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .phone {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .website {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .box {
+    width: 80%;
+    height: 500px;
+    background: #ddd;
+    margin: 0 auto;
+  }
+}
+.h2 {
+  text-align: center;
+}
