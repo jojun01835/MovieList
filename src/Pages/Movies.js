@@ -28,7 +28,7 @@ const Movies = () => {
       return <Movie movie={movie} key={movie.id} removeMovie={removeMovie} />;
     })
   ) : (
-    <div className="lefttext">영화가 아리마셍</div>
+    <div className="lefttext">영화가 없습니다.</div>
   );
 
   const addMovie = (movie) => {

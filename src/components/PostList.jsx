@@ -69,7 +69,7 @@ const PostList = () => {
 
   return (
     <div className="post-list">
-      <h2>Post List</h2>
+      <h2>리뷰 리스트</h2>
       <ul>
         {posts.map((post) => (
           <li className="post-item" key={post.id}>

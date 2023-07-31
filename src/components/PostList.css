@@ -5,13 +5,17 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  background-color: #f8f8f8;
 }
 
 .post-item {
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
 }
 
 .post-info {
@@ -23,6 +27,7 @@
 
 .post-info strong {
   font-size: 20px;
+  color: #333;
 }
 
 .post-info span {
@@ -36,6 +41,7 @@
 
 p {
   white-space: pre-line; /* 줄바꿈이 유지되도록 설정 */
+  color: #333;
 }
 
 textarea {
@@ -51,24 +57,26 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .update-btn {
-  background-color: #4caf50;
-  color: white;
+  background-color: #e50914;
+  color: #fff;
 }
 
 .cancel-btn {
-  background-color: #f44336;
-  color: white;
+  background-color: #999;
+  color: #fff;
 }
 
 .edit-btn {
-  background-color: #2196f3;
-  color: white;
+  background-color: #e50914;
+  color: #fff;
 }
 
 .delete-btn {
-  background-color: #f44336;
-  color: white;
+  background-color: #999;
+  color: #fff;
 }

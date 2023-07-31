@@ -7,18 +7,15 @@ const Navbar = () => {
       <ul>
         <li className="nav-item">
           <NavLink to="">
-            <h1>Movie</h1>
+            <h1>
+              <img src={require("../img/logo1.png")} style={{ width: "200px", height: "200px" }} alt="이미지1" />
+            </h1>
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="">Home</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="Movies">Movies</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="Users">Users</NavLink>
-        </li>
+
         <li className="nav-item">
           <NavLink to="UserView">Views</NavLink>
         </li>

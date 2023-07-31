@@ -43,20 +43,20 @@ const PostForm = () => {
 
   return (
     <div className="post-form">
-      <h2>Add New Post</h2>
+      <h2>리뷰 추가</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          Title:
+          제목:
           <input type="text" value={title} onChange={handleTitleChange} />
         </label>
         <br />
         <label>
-          Content:
+          내용:
           <textarea value={content} onChange={handleContentChange} />
         </label>
         <br />
         <label>
-          Rating:
+          평점:
           <Rating
             count={5}
             size={24}
@@ -66,7 +66,7 @@ const PostForm = () => {
           />
         </label>
         <br />
-        <button type="submit">Add Post</button>
+        <button type="submit">리뷰 저장</button>
       </form>
     </div>
   );

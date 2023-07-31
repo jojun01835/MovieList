@@ -56,14 +56,18 @@
   }
   nav {
     width: 100%;
+    height: 100px;
     background: #3f3f3f;
-    padding: 20px 0;
+    padding: 10px 0;
     ul {
       display: flex;
+      height: 70px;
       justify-content: space-around;
       list-style: none;
+      align-items: center;
+
       li {
-        padding: 0 20px;
+        padding: 0 10px;
 
         a {
           text-decoration: none;
